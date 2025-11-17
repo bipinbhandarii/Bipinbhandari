@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en" data-layout="split" data-theme="gradient" data-modules="hero,services,portfolio,contact,social">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bipin Bhandari - Video Editing & Graphic Design Services</title>
+    <meta name="description" content="Professional video editing, graphic design, and animation services by Bipin Bhandari. Transform your creative vision into stunning visual content with expert design solutions.">
+    <meta property="og:title" content="Bipin Bhandari - Video Editing & Graphic Design Services">
+    <meta property="og:description" content="Professional video editing, graphic design, and animation services by Bipin Bhandari. Transform your creative vision into stunning visual content.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bipinbhandari.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bipin Bhandari - Video Editing & Graphic Design Services">
+    <meta name="twitter:description" content="Professional video editing, graphic design, and animation services by Bipin Bhandari.">
+    <link rel="canonical" href="https://bipinbhandari.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'orbitron': ['Orbitron', 'monospace'],
+                        'exo': ['Exo 2', 'sans-serif'],
+                    },
+                    animation: {
+                        'float': 'float 6s ease-in-out infinite',
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'bounce-slow': 'bounce 2s infinite',
+                        'scroll-left': 'scrollLeft 20s linear infinite',
+                        'scroll-right': 'scrollRight 25s linear infinite',
+                        'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+                        'slide-in-left': 'slideInLeft 0.8s ease-out forwards',
+                        'slide-in-right': 'slideInRight 0.8s ease-out forwards',
+                        'scale-in': 'scaleIn 0.6s ease-out forwards',
+                        'glow-pulse': 'glowPulse 2s ease-in-out infinite alternate',
+                        'shimmer': 'shimmer 2s linear infinite',
+                        'rotate-slow': 'rotateSlow 10s linear infinite',
+                        'zoom-in': 'zoomIn 0.8s ease-out forwards',
+                        'slide-up': 'slideUp 0.8s ease-out forwards',
+                        'flip-in': 'flipIn 0.8s ease-out forwards',
+                        'bounce-in': 'bounceIn 0.8s ease-out forwards',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0px)' },
+                            '50%': { transform: 'translateY(-20px)' },
+                        },
+                        scrollLeft: {
+                            '0%': { transform: 'translateX(100%)' },
+                            '100%': { transform: 'translateX(-100%)' },
+                        },
+                        scrollRight: {
+                            '0%': { transform: 'translateX(-100%)' },
+                            '100%': { transform: 'translateX(100%)' },
+                        },
+                        fadeInUp: {
+                            '0%': { opacity: '0', transform: 'translateY(30px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        },
+                        slideInLeft: {
+                            '0%': { opacity: '0', transform: 'translateX(-50px)' },
+                            '100%': { opacity: '1', transform: 'translateX(0)' },
+                        },
+                        slideInRight: {
+                            '0%': { opacity: '0', transform: 'translateX(50px)' },
+                            '100%': { opacity: '1', transform: 'translateX(0)' },
+                        },
+                        scaleIn: {
+                            '0%': { opacity: '0', transform: 'scale(0.8)' },
+                            '100%': { opacity: '1', transform: 'scale(1)' },
+                        },
+                        glowPulse: {
+                            '0%': { boxShadow: '0 0 20px rgba(168, 85, 247, 0.4)' },
+                            '100%': { boxShadow: '0 0 40px rgba(168, 85, 247, 0.8)' },
+                        },
+                        shimmer: {
+                            '0%': { backgroundPosition: '-200% 0' },
+                            '100%': { backgroundPosition: '200% 0' },
+                        },
+                        rotateSlow: {
+                            '0%': { transform: 'rotate(0deg)' },
+                            '100%': { transform: 'rotate(360deg)' },
+                        },
+                        zoomIn: {
+                            '0%': { opacity: '0', transform: 'scale(0.5)' },
+                            '100%': { opacity: '1', transform: 'scale(1)' },
+                        },
+                        slideUp: {
+                            '0%': { opacity: '0', transform: 'translateY(50px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        },
+                        flipIn: {
+                            '0%': { opacity: '0', transform: 'rotateY(-90deg)' },
+                            '100%': { opacity: '1', transform: 'rotateY(0deg)' },
+                        },
+                        bounceIn: {
+                            '0%': { opacity: '0', transform: 'scale(0.3)' },
+                            '50%': { opacity: '1', transform: 'scale(1.05)' },
+                            '70%': { transform: 'scale(0.9)' },
+                            '100%': { opacity: '1', transform: 'scale(1)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bipin Bhandari",
+        "jobTitle": "Video Editor & Graphic Designer",
+        "description": "Professional video editing, graphic design, and animation services",
+        "url": "https://bipinbhandari.com",
+        "sameAs": [
+            "https://facebook.com/bipinbhandari",
+            "https://instagram.com/bipinbhandari",
+            "https://github.com/bipinbhandari"
+        ]
+    }
+    </script>
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white overflow-x-hidden font-exo">
+    <!-- Animated scroll elements -->
+    <div class="fixed top-1/4 left-0 w-full pointer-events-none z-0 opacity-20">
+        <div class="animate-scroll-left text-6xl font-bold text-purple-400/30 whitespace-nowrap">
+            VIDEO EDITING • GRAPHIC DESIGN • ANIMATION • CREATIVE SOLUTIONS •
+        </div>
+    </div>
+    <div class="fixed top-3/4 left-0 w-full pointer-events-none z-0 opacity-20">
+        <div class="animate-scroll-right text-6xl font-bold text-pink-400/30 whitespace-nowrap">
+            • VISUAL STORYTELLING • BRAND IDENTITY • MOTION GRAPHICS • DIGITAL ART
+        </div>
+    </div>
+
+    <header class="relative z-50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <div class="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent font-orbitron">
+                        Bipin Bhandari
+                    </div>
+                </div>
+                <div class="hidden md:flex space-x-8 font-exo">
+                    <a href="#services" class="hover:text-purple-400 transition-colors">Services</a>
+                    <a href="#portfolio" class="hover:text-purple-400 transition-colors">Portfolio</a>
+                    <a href="#contact" class="hover:text-purple-400 transition-colors">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="relative min-h-screen flex items-center justify-center px-6 py-20">
+            <div class="absolute inset-0 bg-gradient-to-r from-purple-600/20 to-pink-600/20 animate-pulse-slow"></div>
+            <div class="container mx-auto grid lg:grid-cols-2 gap-12 items-center relative z-10">
+                <div class="text-center lg:text-left opacity-0 animate-slide-in-left">
+                    <h1 class="text-5xl lg:text-7xl font-black mb-6 bg-gradient-to-r from-white via-purple-200 to-pink-200 bg-clip-text text-transparent animate-float font-orbitron">
+                        Creative Visual Storyteller
+                    </h1>
+                    <p class="text-xl lg:text-2xl text-gray-300 mb-8 leading-relaxed font-exo font-light">
+                        Transform your ideas into stunning visual content with professional video editing, graphic design, and animation services.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="#contact" class="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 px-8 py-4 rounded-full font-semibold transition-all transform hover:scale-105 shadow-lg font-exo animate-glow-pulse">
+                            Start Your Project
+                        </a>
+                        <a href="#portfolio" class="border-2 border-purple-400 hover:bg-purple-400 hover:text-white px-8 py-4 rounded-full font-semibold transition-all font-exo relative overflow-hidden group">
+                            <span class="relative z-10">View Portfolio</span>
+                            <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700 animate-shimmer"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="relative opacity-0 animate-slide-in-right">
+                    <div class="relative w-full" style="padding-top:56.25%">
+                        <img src="https://cdn.ailandingpage.ai/landingpage_io/user_generate/3971a72d-419b-4b26-a9f6-e1a0c1fd6dbf/3971a72d-419b-4b26-a9f6-e1a0c1fd6dbf/hero/ad9b72110d_0.png" 
+                             alt="Video editing workspace with multiple monitors" 
+                             class="absolute inset-0 w-full h-full object-cover rounded-xl shadow-2xl animate-float block rounded-lg" 
+                             width="800" height="450" loading="eager" decoding="async"
+                             style="aspect-ratio:800/450;">
+                    </div>
+                    <div class="absolute -top-4 -right-4 w-24 h-24 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full animate-bounce-slow opacity-80"></div>
+                    <div class="absolute -bottom-4 -left-4 w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full animate-pulse"></div>
+                    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 border-2 border-purple-400/30 rounded-full animate-rotate-slow"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="py-20 px-6">
+            <div class="container mx-auto">
+                <div class="text-center mb-16 opacity-0 animate-zoom-in">
+                    <h2 class="text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent font-orbitron">
+                        Creative Services
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto font-exo font-light">
+                        Bringing your vision to life through cutting-edge design and video production
+                    </p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-8 hover:bg-white/20 transition-all transform hover:scale-105 border border-white/20 opacity-0 animate-flip-in hover:animate-glow-pulse" style="animation-delay: 0.2s;">
+                        <div class="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mb-6 animate-float">
+                            <i data-lucide="video" class="w-8 h-8 text-white"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 font-orbitron">Video Editing</h3>
+                        <p class="text-gray-300 mb-6 font-exo">Professional video editing for social media, commercials, documentaries, and personal projects with cinematic quality.</p>
+                        <div class="relative w-full" style="padding-top:56.25%">
+                            <img src="https://cdn.ailandingpage.ai/landingpage_io/user_generate/3971a72d-419b-4b26-a9f6-e1a0c1fd6dbf/3971a72d-419b-4b26-a9f6-e1a0c1fd6dbf/service-video/0a4f0221b2_0.png" 
+                                 alt="Video editing timeline interface" 
+                                 class="absolute inset-0 w-full h-full object-cover rounded-xl shadow block rounded-lg hover:scale-105 transition-transform" 
+                                 width="400" height="225" loading="lazy" decoding="async"
+                                 style="aspect-ratio:400/225;">
+                        </div>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-8 hover:bg-white/20 transition-all transform hover:scale-105 border border-white/20 opacity-0 animate-slide-up hover:animate-glow-pulse" style="animation-delay: 0.4s;">
+                        <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center mb-6 animate-float" style="animation-delay: 1s;">
+                            <i data-lucide="palette" class="w-8 h-8 text-white"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 font-orbitron">Graphic Design</h3>
+                        <p class="text-gray-300 mb-6 font-exo">Eye-catching logos, branding materials, social media graphics, and print designs that make your brand stand out.</p>
+                        <div class="relative w-full" style="padding-top:56.25%">
+                            <img src="https://cdn.ailandingpage.ai/landingpage_io/user_generate/3971a72d-419b-4b26-a9f6-e1a0c1fd6dbf/3971a72d-419b-4b26-a9f6-e1a0c1fd6dbf/service-design/6ff31b1b0c_0.png" 
+                                 alt="Graphic design workspace with color palettes" 
+                                 class="absolute inset-0 w-full h-full object-cover rounded-xl shadow block rounded-lg hover:scale-105 transition-transform" 
+                                 width="400" height="225" loading="lazy" decoding="async"
+                                 style="aspect-ratio:400/225;">
+                        </div>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-8 hover:bg-white/20 transition-all transform hover:scale-105 border border-white/20 opacity-0 animate-bounce-in hover:animate-glow-pulse" style="animation-delay: 0.6s;">
+                        <div class="w-16 h-16 bg-gradient-to-r from-pink-500 to-red-500 rounded-full flex items-center justify-center mb-6 animate-float" style="animation-delay: 2s;">
+                            <i data-lucide="zap" class="w-8 h-8 text-white"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 font-orbitron">Animation</h3>
+                        <p class="text-gray-300 mb-6 font-exo">Dynamic motion graphics, 2D animations, and visual effects that bring static designs to life with engaging movement.</p>
+                        <div class="relative w-full" style="padding-top:56.25%">
+                            <img src="https://cdn.ailandingpage.ai/landingpage_io/user_generate/3971a72d-419b-4b26-a9f6-e1a0c1fd6dbf/3971a72d-419b-4b26-a9f6-e1a0c1fd6dbf/service-animation/278d99802e_0.png" 
+                                 alt="Animation software interface with motion graphics" 
+                                 class="absolute inset-0 w-full h-full object-cover rounded-xl shadow block rounded-lg hover:scale-105 transition-transform" 
+                                 width="400" height="225" loading="lazy" decoding="async"
+                                 style="aspect-ratio:400/225;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 px-6 bg-white/5">
+            <div class="container mx-auto text-center">
+                <h2 class="text-4xl font-bold mb-12 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent font-orbitron opacity-0 animate-flip-in">
+                    Why Choose Bipin?
+                </h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="p-6 opacity-0 animate-zoom-in hover:animate-glow-pulse" style="animation-delay: 0.2s;">
+                        <div class="text-5xl font-bold text-purple-400 mb-4 font-orbitron animate-bounce-slow">5+</div>
+                        <h3 class="text-xl font-semibold mb-2 font-orbitron">Years Experience</h3>
+                        <p class="text-gray-300 font-exo">Proven track record in creative visual content</p>
+                    </div>
+                    <div class="p-6 opacity-0 animate-slide-up hover:animate-glow-pulse" style="animation-delay: 0.4s;">
+                        <div class="text-5xl font-bold text-pink-400 mb-4 font-orbitron animate-bounce-slow" style="animation-delay: 0.5s;">100+</div>
+                        <h3 class="text-xl font-semibold mb-2 font-orbitron">Projects Completed</h3>
+                        <p class="text-gray-300 font-exo">Satisfied clients across various industries</p>
+                    </div>
+                    <div class="p-6 opacity-0 animate-bounce-in hover:animate-glow-pulse" style="animation-delay: 0.6s;">
+                        <div class="text-5xl font-bold text-blue-400 mb-4 font-orbitron animate-bounce-slow" style="animation-delay: 1s;">24h</div>
+                        <h3 class="text-xl font-semibold mb-2 font-orbitron">Quick Turnaround</h3>
+                        <p class="text-gray-300 font-exo">Fast delivery without compromising quality</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="py-20 px-6">
+            <div class="container mx-auto">
+                <div class="text-center mb-16 opacity-0 animate-flip-in">
+                    <h2 class="text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent font-orbitron">
+                        Featured Work
+                    </h2>
+                    <p class="text-xl text-gray-300 font-exo font-light">A showcase of recent creative projects</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="group cursor-pointer opacity-0 animate-zoom-in hover:animate-glow-pulse" style="animation-delay: 0.2s;">
+                        <div class="relative w-full overflow-hidden rounded-xl" style="padding-top:56.25%">
+                            <img src="https://cdn.ailandingpage.ai/landingpage_io/user_generate/3971a72d-419b-4b26-a9f6-e1a0c1fd6dbf/3971a72d-419b-4b26-a9f6-e1a0c1fd6dbf/portfolio-1/927c47323d_0.png" 
+                                 alt="Brand identity design project" 
+                                 class="absolute inset-0 w-full h-full object-cover shadow-lg group-hover:scale-110 transition-transform duration-500 block rounded-lg" 
+                                 width="400" height="225" loading="lazy" decoding="async"
+                                 style="aspect-ratio:400/225;">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        </div>
+                        <h3 class="text-xl font-semibold mt-4 mb-2 font-orbitron">Brand Identity Design</h3>
+                        <p class="text-gray-400 font-exo">Complete branding package for tech startup</p>
+                    </div>
+                    <div class="group cursor-pointer opacity-0 animate-slide-up hover:animate-glow-pulse" style="animation-delay: 0.4s;">
+                        <div class="relative w-full overflow-hidden rounded-xl" style="padding-top:56.25%">
+                            <img src="https://cdn.ailandingpage.ai/landingpage_io/user_generate/3971a72d-419b-4b26-a9f6-e1a0c1fd6dbf/3971a72d-419b-4b26-a9f6-e1a0c1fd6dbf/portfolio-2/208e646180_0.png" 
+                                 alt="Commercial video production" 
+                                 class="absolute inset-0 w-full h-full object-cover shadow-lg group-hover:scale-110 transition-transform duration-500 block rounded-lg" 
+                                 width="400" height="225" loading="lazy" decoding="async"
+                                 style="aspect-ratio:400/225;">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        </div>
+                        <h3 class="text-xl font-semibold mt-4 mb-2 font-orbitron">Commercial Video</h3>
+                        <p class="text-gray-400 font-exo">Product launch campaign video</p>
+                    </div>
+                    <div class="group cursor-pointer opacity-0 animate-bounce-in hover:animate-glow-pulse" style="animation-delay: 0.6s;">
+                        <div class="relative w-full overflow-hidden rounded-xl" style="padding-top:56.25%">
+                            <img src="https://cdn.ailandingpage.ai/landingpage_io/user_generate/3971a72d-419b-4b26-a9f6-e1a0c1fd6dbf/3971a72d-419b-4b26-a9f6-e1a0c1fd6dbf/portfolio-3/417bd5bf67_0.png" 
+                                 alt="Motion graphics animation" 
+                                 class="absolute inset-0 w-full h-full object-cover shadow-lg group-hover:scale-110 transition-transform duration-500 block rounded-lg" 
+                                 width="400" height="225" loading="lazy" decoding="async"
+                                 style="aspect-ratio:400/225;">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        </div>
+                        <h3 class="text-xl font-semibold mt-4 mb-2 font-orbitron">Motion Graphics</h3>
+                        <p class="text-gray-400 font-exo">Animated explainer video series</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-20 px-6 bg-gradient-to-r from-purple-900/50 to-pink-900/50">
+            <div class="container mx-auto text-center">
+                <h2 class="text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent font-orbitron opacity-0 animate-flip-in">
+                    Let's Create Together
+                </h2>
+                <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto font-exo font-light opacity-0 animate-zoom-in" style="animation-delay: 0.2s;">
+                    Ready to bring your creative vision to life? Get in touch and let's discuss your next project.
+                </p>
+                <div class="flex flex-wrap justify-center gap-6 mb-12 opacity-0 animate-slide-up" style="animation-delay: 0.4s;">
+                    <a href="mailto:info@bipinb.com.np" class="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 px-8 py-4 rounded-full font-semibold transition-all transform hover:scale-105 shadow-lg flex items-center gap-3 font-exo animate-glow-pulse">
+                        <i data-lucide="mail" class="w-5 h-5"></i>
+                        Email Me
+                    </a>
+                    <a href="https://wa.me/17432592090" target="_blank" rel="noopener" class="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 px-8 py-4 rounded-full font-semibold transition-all transform hover:scale-105 shadow-lg flex items-center gap-3 font-exo animate-glow-pulse" style="animation-delay: 0.5s;">
+                        <i data-lucide="message-circle" class="w-5 h-5"></i>
+                        WhatsApp
+                    </a>
+                </div>
+                <div class="flex justify-center space-x-8 opacity-0 animate-bounce-in" style="animation-delay: 0.6s;">
+                    <div class="w-12 h-12 bg-gray-600 rounded-full flex items-center justify-center transition-all transform hover:scale-110 animate-pulse" aria-label="Facebook">
+                        <i data-lucide="facebook" class="w-6 h-6 text-gray-400"></i>
+                    </div>
+                    <div class="w-12 h-12 bg-gray-600 rounded-full flex items-center justify-center transition-all transform hover:scale-110 animate-pulse" aria-label="Instagram" style="animation-delay: 0.3s;">
+                        <i data-lucide="instagram" class="w-6 h-6 text-gray-400"></i>
+                    </div>
+                    <div class="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center" aria-label="GitHub">
+                        <i data-lucide="github" class="w-6 h-6"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-12 px-6 bg-black/50 border-t border-white/10">
+        <div class="container mx-auto text-center">
+            <div class="flex items-center justify-center space-x-3 mb-4">
+                <div class="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent font-orbitron">
+                    Bipin Bhandari
+                </div>
+            </div>
+            <p class="text-gray-400 mb-6 font-exo">Creative Visual Storyteller</p>
+            <p class="text-sm text-gray-500 font-exo">
+                © 2026 Bipin Bhandari. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Enhanced scroll animation observer - fixed to prevent double triggering
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const animatedElements = new Set();
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting && !animatedElements.has(entry.target)) {
+                    entry.target.classList.remove('opacity-0');
+                    entry.target.style.animationPlayState = 'running';
+                    animatedElements.add(entry.target);
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        // Observe all animated elements except hero elements
+        document.querySelectorAll('[class*="animate-"]').forEach(el => {
+            if (el.classList.contains('opacity-0') && 
+                !el.classList.contains('animate-slide-in-left') && 
+                !el.classList.contains('animate-slide-in-right')) {
+                el.style.animationPlayState = 'paused';
+                observer.observe(el);
+            }
+        });
+
+        // Initialize hero animations on load
+        window.addEventListener('load', () => {
+            const heroElements = document.querySelectorAll('.animate-slide-in-left, .animate-slide-in-right');
+            heroElements.forEach(el => {
+                el.classList.remove('opacity-0');
+                el.style.animationPlayState = 'running';
+                animatedElements.add(el);
+            });
+        });
+    </script>
+</body>
+</html>
